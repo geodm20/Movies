@@ -1,0 +1,36 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  width: 80%;
+}
+
+.movieImage {
+  border-radius: 15px;
+  object-fit: cover;
+  transition: 0.8s ease;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.movieDetails {
+  font-size: 1.2rem;
+}
+
+.information {
+  margin: 10px;
+  margin-top: 20px;
+}
+
+.center {
+  text-align: center;
+}
